@@ -137,6 +137,32 @@ public class DocumentVerifier {
                 secondFinalDigitChecker = 11 - secondFinalDigitChecker;
             }
 
+            // 012345678910111213
+            // 440.523.188-54
+            if (isDigit(value.charAt(0))
+                && isDigit(value.charAt(1))
+                && isDigit(value.charAt(2))
+                && value.charAt(3) == '.'
+                && isDigit(value.charAt(4))
+                && isDigit(value.charAt(5))
+                && isDigit(value.charAt(6))
+                && value.charAt(7) == '.'
+                && isDigit(value.charAt(8))
+                && isDigit(value.charAt(9))
+                && isDigit(value.charAt(10))
+                && value.charAt(11) == '-'
+                && ((isDigit(value.charAt(12))) && (Character.getNumericValue(value.charAt(12)) == firstFinalDigitChecker))
+                && ((isDigit(value.charAt(13))) && (Character.getNumericValue(value.charAt(13)) == secondFinalDigitChecker))) {
+
+                    System.out.println("Everything looks fine! Your document is a CPF!");
+                    System.out.println("First final digit calculated: " + firstFinalDigitChecker);
+                    System.out.println("Second final digit calculated: " + secondFinalDigitChecker);
+                }
+                else {
+                    System.out.println("The value collected isn't a CPF!");
+                    throw new IllegalArgumentException("Invalid CPF!");
+                }
+
         }
 
     }
