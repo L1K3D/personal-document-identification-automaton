@@ -48,7 +48,7 @@ It uses **automaton-like logic** with digit checking and validation rules to ens
 
 3. Enter a CPF or RG when prompted:
    ```
-   Write the document you want to verify: 440.523.188-54
+   Write the document you want to verify: 345.570.950-89
    ```
 
 ---
