@@ -57,17 +57,17 @@ It uses **automaton-like logic** with digit checking and validation rules to ens
 
 ### ✅ Valid CPF
 ```
-Write the document you want to verify: 440.523.188-54
+Write the document you want to verify: 345.570.950-89
 Everything looks fine! Your document is a CPF!
-First final digit calculated: 5
-Second final digit calculated: 4
+First final digit calculated: 8
+Second final digit calculated: 9
 ```
 
 ### ✅ Valid RG
 ```
-Write the document you want to verify: 55.277.831-X
+Write the document you want to verify: 21.527.759-4
 Everything looks fine! Your document is a RG
-Final Digit Calculated: X
+Final Digit Calculated: 4
 ```
 
 ### ❌ Invalid Document
