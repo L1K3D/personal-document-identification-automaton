@@ -93,4 +93,3 @@ Exception in thread "main" java.lang.IllegalArgumentException: Invalid CPF!
 ## 👨‍💻 Author
 
 Developed by **Heitor Ferreira**.
-```
