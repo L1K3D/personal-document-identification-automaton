@@ -89,7 +89,3 @@ Exception in thread "main" java.lang.IllegalArgumentException: Invalid CPF!
   - Integrate with a database for storage and verification
 
 ---
-
-## 👨‍💻 Author
-
-Developed by **Heitor Ferreira**.
